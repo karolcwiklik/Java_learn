@@ -1,0 +1,23 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        String tak = "masz ukonczone 18 lat";
+        String nie = "jestes niepelnoletni";
+        String blad = "wprowadzono niepoprawna wartosc";
+
+        int i = -1;
+        if (i >= 18)
+            System.out.println(tak);
+        else if (i < 18 && i >0)
+            System.out.println(nie);
+        else if (i <= 0)
+            System.out.println(blad);
+        
+        }
+
+}
+
